@@ -1,0 +1,19 @@
+# WAR file (too large for git, build locally)
+gestion_ecole.war
+
+# Environment files with secrets
+.env
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
