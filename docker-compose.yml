@@ -36,8 +36,9 @@ services:
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       JWT_SECRET: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
       JWT_EXPIRATION: 1800000
-      BASE_URL_SERVER: http://vps120617.serveur-vps.net:8181/gestion_ecole
-      BASE_URL_LOCAL: localhost:8181/gestion_ecole
+      SERVER_SERVLET_CONTEXT_PATH: /
+      BASE_URL_SERVER: http://vps120617.serveur-vps.net:8181
+      BASE_URL_LOCAL: localhost:8181
       APP_UPLOAD_DIR: /var/lib/gestion_ecole/data
       TZ: Africa/Dakar
     volumes:
